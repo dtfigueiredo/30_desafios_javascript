@@ -1,4 +1,4 @@
-// receber um array e devolver um novo array com as posições invertidas - SEM UTILIZAR MÈTODOS ARRAYS
+//! receber um array e devolver um novo array com as posições invertidas - SEM UTILIZAR MÈTODOS ARRAYS
 
 const gods = ['1-thor', '2-odin', '3-loki', '4-freya', '5-baldur']
 
