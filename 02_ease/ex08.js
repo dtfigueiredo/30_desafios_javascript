@@ -5,7 +5,7 @@
 const shortedName = (str) => {
   const originalString = str.toUpperCase()
   let inicialLetters = []
-  inicialLetters = originalString.split(' ').map(name => name.split('').shift() + '.')
+  inicialLetters = originalString.split(' ').map(name => name.split('').shift() + '.') //`name.split('').shift().`
   inicialLetters.pop()
   //retirando o utimo nome e transformando em letra maiuscula
   const lastName = originalString.split(' ').pop()
